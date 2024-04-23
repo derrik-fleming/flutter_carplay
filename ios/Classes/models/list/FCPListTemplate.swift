@@ -7,7 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
+@available(iOS 15.0, *)
 class FCPListTemplate {
   private(set) var _super: CPListTemplate?
   private(set) var elementId: String
@@ -61,5 +61,5 @@ class FCPListTemplate {
   }
 }
 
-@available(iOS 14.0, *)
+@available(iOS 15.0, *)
 extension FCPListTemplate: FCPRootTemplate { }

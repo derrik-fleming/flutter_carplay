@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPAlertTemplate {
+@available(iOS 15.0, *)class FCPAlertTemplate {
   private(set) var _super: CPAlertTemplate?
   private(set) var elementId: String
   private var titleVariants: [String]
@@ -33,5 +32,4 @@ class FCPAlertTemplate {
   }
 }
 
-@available(iOS 14.0, *)
-extension FCPAlertTemplate: FCPPresentTemplate { }
+@available(iOS 15.0, *)extension FCPAlertTemplate: FCPPresentTemplate { }

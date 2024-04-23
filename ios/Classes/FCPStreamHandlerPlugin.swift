@@ -7,8 +7,7 @@
 
 import Flutter
 
-@available(iOS 14.0, *)
-class FCPStreamHandlerPlugin: NSObject, FlutterStreamHandler {
+@available(iOS 15.0, *)class FCPStreamHandlerPlugin: NSObject, FlutterStreamHandler {
   private static var eventSink: FlutterEventSink?
   
   public required init(registrar: FlutterPluginRegistrar) {

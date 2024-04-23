@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPPointOfInterest {
+@available(iOS 15.0, *)class FCPPointOfInterest {
     private(set) var _super: CPPointOfInterest?
     private(set) var elementId: String
     private var latitude: Double

@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPTabBarTemplate {
+@available(iOS 15.0, *)class FCPTabBarTemplate {
   private(set) var elementId: String
   private var title: String?
   private var templates: [CPTemplate]
@@ -36,5 +35,4 @@ class FCPTabBarTemplate {
   }
 }
 
-@available(iOS 14.0, *)
-extension FCPTabBarTemplate: FCPRootTemplate { }
+@available(iOS 15.0, *)extension FCPTabBarTemplate: FCPRootTemplate { }

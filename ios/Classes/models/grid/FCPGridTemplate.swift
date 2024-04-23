@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPGridTemplate {
+@available(iOS 15.0, *)class FCPGridTemplate {
   private(set) var _super: CPGridTemplate?
   private(set) var elementId: String
   private var title: String
@@ -33,5 +32,4 @@ class FCPGridTemplate {
   }
 }
 
-@available(iOS 14.0, *)
-extension FCPGridTemplate: FCPRootTemplate { }
+@available(iOS 15.0, *)extension FCPGridTemplate: FCPRootTemplate { }

@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPBarButton {
+@available(iOS 15.0, *)class FCPBarButton {
   private(set) var _super: CPBarButton?
   private(set) var elementId: String
   private var title: String

@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPAlertAction {
+@available(iOS 15.0, *)class FCPAlertAction {
   private(set) var _super: CPAlertAction?
   private(set) var elementId: String
   private var title: String

@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPTextButton {
+@available(iOS 15.0, *)class FCPTextButton {
     private(set) var _super: CPTextButton?
     private(set) var elementId: String
     private var title: String

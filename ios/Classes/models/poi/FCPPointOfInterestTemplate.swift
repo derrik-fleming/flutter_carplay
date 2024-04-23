@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPPointOfInterestTemplate {
+@available(iOS 15.0, *)class FCPPointOfInterestTemplate {
     private(set) var _super: CPPointOfInterestTemplate?
     private(set) var elementId: String
     private var title: String
@@ -35,5 +34,4 @@ class FCPPointOfInterestTemplate {
     }
 }
 
-@available(iOS 14.0, *)
-extension FCPPointOfInterestTemplate: FCPRootTemplate { }
+@available(iOS 15.0, *)extension FCPPointOfInterestTemplate: FCPRootTemplate { }
