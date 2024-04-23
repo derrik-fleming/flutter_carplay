@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPActionSheetTemplate {
+@available(iOS 15.0, *)class FCPActionSheetTemplate {
   private(set) var _super: CPActionSheetTemplate?
   private(set) var elementId: String
   private var title: String?
@@ -35,5 +34,4 @@ class FCPActionSheetTemplate {
   }
 }
 
-@available(iOS 14.0, *)
-extension FCPActionSheetTemplate: FCPPresentTemplate { }
+@available(iOS 15.0, *)extension FCPActionSheetTemplate: FCPPresentTemplate { }

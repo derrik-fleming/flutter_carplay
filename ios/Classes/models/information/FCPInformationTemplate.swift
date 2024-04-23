@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPInformationTemplate {
+@available(iOS 15.0, *)class FCPInformationTemplate {
     private(set) var _super: CPInformationTemplate?
     private(set) var elementId: String
     private var title: String
@@ -50,5 +49,4 @@ class FCPInformationTemplate {
         return informationTemplate
     }
 }
-@available(iOS 14.0, *)
-extension FCPInformationTemplate: FCPRootTemplate { }
+@available(iOS 15.0, *)extension FCPInformationTemplate: FCPRootTemplate { }

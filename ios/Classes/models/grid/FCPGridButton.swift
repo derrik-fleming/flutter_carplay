@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FCPGridButton {
+@available(iOS 15.0, *)class FCPGridButton {
   private(set) var _super: CPGridButton?
   private(set) var elementId: String
   private var titleVariants: [String]

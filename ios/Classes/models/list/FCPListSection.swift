@@ -7,7 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
+@available(iOS 15.0, *)
 class FCPListSection {
   private(set) var _super: CPListSection?
   private(set) var elementId: String

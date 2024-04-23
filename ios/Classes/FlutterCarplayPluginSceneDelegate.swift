@@ -7,8 +7,7 @@
 
 import CarPlay
 
-@available(iOS 14.0, *)
-class FlutterCarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
+@available(iOS 15.0, *)class FlutterCarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
   static private var interfaceController: CPInterfaceController?
   
   static public func forceUpdateRootTemplate() {
